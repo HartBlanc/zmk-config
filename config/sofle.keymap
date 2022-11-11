@@ -43,7 +43,7 @@
 &trans    &trans    &trans    &trans    &trans    &trans                        &trans      &trans      &kp UP         &trans       &trans     &kp F12
 &trans    &trans    &trans    &trans    &trans    &trans                        &trans      &kp LEFT    &kp DOWN       &kp RIGHT    &trans     &trans
 &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &trans      &trans         &trans       &trans     &trans
-                    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &trans      &kp KP_PLUS    &kp BSLH
+                    &trans    &trans    &trans    &trans    &trans    &trans    &trans      &trans      &kp KP_PLUS    &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -60,8 +60,8 @@
 &bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                            &trans    &trans    &trans    &trans    &trans    &trans
 &trans        &trans         &trans          &kp PG_UP       &kp PSCRN       &trans                                  &trans    &trans    &trans    &trans    &trans    &trans
 &trans        &trans         &trans          &kp PG_DN       &trans          &trans                                  &trans    &trans    &trans    &trans    &trans    &trans
-&trans        &trans         &trans          &trans          &trans          &trans          &trans      &trans      &trans    &trans    &trans    &trans    &trans
-                             &kp EQUAL       &kp PIPE        &trans          &trans          &trans      &trans      &trans    &trans    &trans    &trans    &trans
+&trans        &trans         &trans          &trans          &trans          &trans          &trans      &trans      &trans    &trans    &trans    &trans    &trans    &trans
+                             &kp EQUAL       &kp BSLH        &trans          &trans          &trans      &trans      &trans    &trans    &trans    &trans    
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
