@@ -51,13 +51,13 @@
 
         raise_layer {
 // ------------------------------------------------------------------------------------------------------------
-// | BT_CLR | BT1  | BT2   |  BT3  | BT4   | BT5  |                |      |      |       |      |       |      |
+// | BT_CLR | BT1  | BT2   |  BT3  | BT4   |      |                |      |      |       |      |       |      |
 // |        |      |       |  PGUP | PSCR  |      |                |      |      |       |      |       |      |
 // |        |      |       |  PGDN |       |      |                |      |      |       |      |       |      |
 // |        |      |       |       |       |      |      |  |      |      |      |       |      |       |      |
 //                 |   =   |   \   |       |      |      |  |      |      |      |       |      |
             bindings = <
-&bt BT_CLR    &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4                            &trans    &trans    &trans    &trans    &trans    &trans
+&bt BT_CLR    &bt BT_SEL 1   &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4    &trans                                  &trans    &trans    &trans    &trans    &trans    &trans
 &trans        &trans         &trans          &kp PG_UP       &kp PSCRN       &trans                                  &trans    &trans    &trans    &trans    &trans    &trans
 &trans        &trans         &trans          &kp PG_DN       &trans          &trans                                  &trans    &trans    &trans    &trans    &trans    &trans
 &trans        &trans         &trans          &trans          &trans          &trans          &trans      &trans      &trans    &trans    &trans    &trans    &trans    &trans
