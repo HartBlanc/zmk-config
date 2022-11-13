@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <behaviors.dtsi>
 
+&caps_word {
+    continue-list = <BACKSPACE UNDERSCORE DELETE>;
+};
+
 / {
     macros {
         kc_capp: kc_capp {
