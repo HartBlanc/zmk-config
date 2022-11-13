@@ -10,7 +10,7 @@
 #include <behaviors.dtsi>
 
 &caps_word {
-    continue-list = <BACKSPACE UNDERSCORE DELETE>;
+    continue-list = <BACKSPACE UNDERSCORE>;
 };
 
 / {
