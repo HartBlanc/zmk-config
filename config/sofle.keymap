@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 #include <behaviors.dtsi>
 
+&caps_word {
+    continue-list = <UNDERSCORE BACKSPACE SEMI>;
+};
+
 / {
     behaviors {
         bhm: balanced_homerow_mods {
