@@ -61,7 +61,7 @@
             label = "ONE_HAND_CMD";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp SPACE> <&mt LGUI SPACE>;
+            bindings = <&kp SPACE>, <&mt LGUI SPACE>;
         };
     };
     keymap {
