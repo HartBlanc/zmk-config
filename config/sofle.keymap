@@ -43,7 +43,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <210>;
             quick-tap-ms = <0>;
-            flavor = "tap-unless-interrupted";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
         rhm: r_homerow_mods {
@@ -52,7 +52,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <210>;
             quick-tap-ms = <0>;
-            flavor = "tap-unless-interrupted";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <
                  1  2  3  4  5  6
@@ -68,7 +68,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <210>;
             quick-tap-ms = <0>;
-            flavor = "tap-unless-interrupted";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <
                  7  8  9 10 11 12
