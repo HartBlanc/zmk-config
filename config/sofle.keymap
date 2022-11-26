@@ -105,7 +105,8 @@
             label = "ALT_LEFT";
             #binding-cells = <0>;
             bindings = <&kp H>, <&kp LEFT>;
-            mods = <(MOD_LALT|MOD_RALT)>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
         l_alt_right: l_alt_right {
             compatible = "zmk,behavior-mod-morph";
@@ -113,6 +114,7 @@
             #binding-cells = <0>;
             bindings = <&rhm RALT L>, <&kp RIGHT>;
             mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
         caps: caps {
             compatible = "zmk,behavior-mod-morph";
