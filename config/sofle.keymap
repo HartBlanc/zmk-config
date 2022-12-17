@@ -83,7 +83,7 @@
         };
         rhl: r_homerow_layer_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "R_HOMEROW_MODS";
+            label = "R_HOMEROW_LAYER_TAP";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
@@ -118,7 +118,7 @@
         };
         lhl: l_homerow_layer_tap {
             compatible = "zmk,behavior-hold-tap";
-            label = "L_HOMEROW_MODS";
+            label = "L_HOMEROW_LAYER_TAP";
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <280>;
