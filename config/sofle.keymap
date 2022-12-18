@@ -241,7 +241,6 @@
 &trans    &trans           &kp N1          &kp N2             &kp N3          &trans    &trans    &trans     &trans      &trans      &trans      &trans       &trans      &trans
                            &trans          &trans             &trans          &trans    &trans    &trans     &trans      &trans      &trans      &trans
             >;
-&lhm LCTRL A   &lhm LALT S   &lhms LSHIFT D    &lhm LGUI F
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
         };
     };
