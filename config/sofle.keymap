@@ -63,9 +63,7 @@
             wait-ms = <2>;
             tap-ms = <1>;
             bindings
-                = <&macro_press &kp LSHIFT>
-                , <&macro_tap &kp P>
-                , <&macro_release &kp LSHIFT>
+                = <&macro_tap &kp LSHIFT &kp P>
                 ;
         };
     };
