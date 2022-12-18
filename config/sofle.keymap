@@ -60,8 +60,8 @@
             label = "colon";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <10>;
-            tap-ms = <5>;
+            wait-ms = <2>;
+            tap-ms = <1>;
             bindings
                 = <&macro_press &kp LSHIFT>
                 , <&macro_tap &kp P>
