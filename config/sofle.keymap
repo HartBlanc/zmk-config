@@ -235,13 +235,13 @@
 // |    |     |   1 |   2  |   3  |      |        |  |       |      |       |       |      |       |       |
 //            |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                         &kp F6      &kp F7      &kp F8      &kp F9       &kp F10     &kp F11
-&trans    &trans    &kp N7    &kp N8    &kp N9    &trans                         &trans      &trans      &trans      &trans       &trans      &trans
-&trans    &kp N0    &kp N4    &kp N5    &kp N6    &trans                         &trans      &trans      &trans      &trans       &trans      &trans
-&trans    &trans    &kp N1    &kp N2    &kp N3    &trans    &trans    &trans     &trans      &trans      &trans      &trans       &trans      &trans
-                    &trans    &trans    &trans    &trans    &trans    &trans     &trans      &trans      &trans      &trans
+&trans    &kp F1           &kp F2          &kp F3             &kp F4          &kp F5                         &kp F6      &kp F7      &kp F8      &kp F9       &kp F10     &kp F11
+&trans    &trans           &kp N7          &kp N8             &kp N9          &trans                         &trans      &trans      &trans      &trans       &trans      &trans
+&trans    &lhm LCTRL N0    &lhm LALT N4    &lhms LSHIFT N5    &lhm LGUI N6    &trans                         &trans      &trans      &trans      &trans       &trans      &trans
+&trans    &trans           &kp N1          &kp N2             &kp N3          &trans    &trans    &trans     &trans      &trans      &trans      &trans       &trans      &trans
+                           &trans          &trans             &trans          &trans    &trans    &trans     &trans      &trans      &trans      &trans
             >;
-
+&lhm LCTRL A   &lhm LALT S   &lhms LSHIFT D    &lhm LGUI F
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp PG_UP PG_DN>;
         };
     };
