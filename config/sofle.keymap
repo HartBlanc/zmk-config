@@ -161,14 +161,14 @@
             label = "CAPS_MOD_MORPH";
             #binding-cells = <0>;
             bindings = <&caps_word>, <&kp CAPS>;
-            mods = <(MOD_LSFT|MOD_LRSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         su_mm: su_mm {
             compatible = "zmk,behavior-mod-morph";
             label = "SPACE_UNDERSCORE_MOD_MORPH";
             #binding-cells = <0>;
             bindings = <&kp SPACE>, <&kp UNDERSCORE>;
-            mods = <(MOD_LSFT|MOD_LRSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
     keymap {
