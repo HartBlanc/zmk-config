@@ -56,6 +56,16 @@
                 , <&macro_release &kp LGUI &kp LSHIFT &kp LCTRL>
                 ;
         };
+        colon: colon {
+            label = "colon";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHIFT>
+                , <&macro_tap &kp P>
+                , <&macro_release &kp LSHIFT>
+                ;
+        };
     };
     behaviors {
         rhm: r_homerow_mods {
@@ -205,15 +215,15 @@
         raise_layer {
 // ------------------------------------------------------------------------------------------------------------
 // | BT_CLR | BT1 | BT2 |  BT3 | BT4  |      |                   |      |       |       |      |       |       |
-// |        |  +  |  =  |  {   |  }   |  |   |                   |  `   |  [    |  ]    |      |       |       |
+// |        |  :  |  =  |  {   |  }   |  |   |                   |  `   |  [    |  ]    |      |       |       |
 // |   ~    |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |       |
-// |        |  ?  |     |  "   |  '   |  ;   |        |  |       |  \   |  /    |  _    |  -   |       |       |
+// |        |  ?  |  +  |  "   |  '   |  ;   |        |  |       |  _   |  -    |  /    |  \   |       |       |
 //                |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
 &bt BT_CLR     &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4    &trans                           &trans       &trans      &trans      &trans       &trans       &trans
-&trans         &kp PLUS         &kp EQUAL       &kp LBRC         &kp RBRC        &trans                           &kp GRAVE    &kp LBKT    &kp RBKT    &trans       &trans       &trans
+&trans         &colon           &kp EQUAL       &kp LBRC         &kp RBRC        &trans                           &kp GRAVE    &kp LBKT    &kp RBKT    &none        &trans       &trans
 &kp TILDE      &kp EXCL         &kp AT          &kp HASH         &kp DLLR        &kp PRCNT                        &kp CARET    &kp AMPS    &kp ASTRK   &kp LPAR     &kp RPAR     &trans
-&trans         &kp QMARK        &trans          &kp DQT          &kp SQT         &kp P        &trans    &trans    &kp BSLH     &kp FSLH    &kp UNDER   &kp MINUS
+&trans         &kp QMARK        &kp PLUS        &kp DQT          &kp SQT         &kp P        &trans    &trans    &kp UNDER   &kp MINUS    &kp FSLH    &kp BSLH
                                 &trans          &trans           &trans          &trans       &trans    &trans    &trans       &trans      &trans      &trans
             >;
      
